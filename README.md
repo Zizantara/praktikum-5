@@ -59,8 +59,12 @@
 1. STRUKTUR CLASS DAN INISIALISASI
 
     <img src="d1.png">
-    - Program menggunakan class StudentGradeSystem untuk mengorganisir kode dan data
-    - __init__ adalah constructor yang dijalankan saat objek dibuat
+
+    - Program menggunakan class StudentGradeSystem untuk mengorganisir kode dan data.
+
+    - __init__ adalah constructor yang dijalankan saat objek dibuat.
+
     - self.students adalah dictionary kosong yang akan menyimpan data dengan struktur:
+    
     <img src="d2.png">
 
