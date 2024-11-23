@@ -65,6 +65,56 @@
     - __init__ adalah constructor yang dijalankan saat objek dibuat.
 
     - self.students adalah dictionary kosong yang akan menyimpan data dengan struktur:
-    
+
     <img src="d2.png">
+
+2. PERHITUNGAN NILAI AKHIR
+
+    <img src="d3.png">
+
+    - Method untuk menghitung nilai akhir sesuai bobot yang ditentukan:
+
+        - Tugas: 30% (0.30)
+
+        - UTS: 35% (0.35)
+
+        - UAS: 35% (0.35)
+
+    - Menerima 3 parameter: nilai tugas, UTS, dan UAS
+
+    - Mengembalikan hasil perhitungan sebagai nilai float
+
+3. PENAMBAHAN DATA MAHASISWA
+
+    <img src="d4.png">
+
+    - Memulai dengan mengecek duplikasi NIM
+
+    - Jika NIM sudah ada, tampilkan pesan error dan keluar dari fungsi
+
+    <img src="d5.png">
+
+    - Input data mahasiswa dengan validasi:
+
+        - Mengkonversi input nilai ke float
+
+        - Memastikan semua nilai antara 0-100
+
+        - Menggunakan try-except untuk menangani input non-numerik
+
+    <img src="d6.png">
+
+   - Menghitung nilai akhir
+
+   - Menyimpan data dalam dictionary dengan struktur nested
+
+4. PEMBARUAN DATA MAHASISWA
+
+def update_student(self):
+        """Mengubah data mahasiswa"""
+        print("\nUbah Data")
+        nim = input("Masukkan NIM yang akan diubah: ")
+        if nim not in self.students:
+            print("NIM tidak ditemukan!")
+            return
 
