@@ -110,11 +110,112 @@
 
 4. PEMBARUAN DATA MAHASISWA
 
-def update_student(self):
-        """Mengubah data mahasiswa"""
-        print("\nUbah Data")
-        nim = input("Masukkan NIM yang akan diubah: ")
-        if nim not in self.students:
-            print("NIM tidak ditemukan!")
-            return
+    <img src="d7.png">
 
+    - Mencari NIM yang akan diupdate
+
+    - Validasi keberadaan NIM sebelum melakukan update
+
+    <img src="d8.png">
+
+    - Proses input dan validasi sama seperti penambahan data
+
+    <img src="d9.png">
+
+    - Menggunakan method update() untuk memperbarui data yang ada
+
+5. PENGHAPUSAN DATA
+
+    <img src="d10.png">
+
+    - Menggunakan operator del untuk menghapus data dari dictionary
+
+    - Validasi keberadaan NIM sebelum menghapus
+
+6. PENCARIAN DATA
+
+    <img src="d11.png">
+
+    - Mencari data berdasarkan NIM
+
+    - Menampilkan data dalam format tabel jika ditemukan
+
+    - Menggunakan string formatting untuk alignment:
+
+        - ^ untuk center alignment
+
+        - < untuk left alignment
+
+        - .2f untuk format float dengan 2 desimal
+
+7. MENAMPILKAN DATA
+
+    <img src="d12.png">
+
+    - Mengecek apakah dictionary kosong
+
+    - Menampilkan pesan khusus jika tidak ada data
+
+    <img src="d13.png">
+
+    - Menggunakan enumerate() untuk memberikan nomor urut
+
+    - Iterasi melalui dictionary menggunakan items()
+
+    - Menampilkan data dalam format tabel yang rapi
+
+8. MENU UTAMA
+
+    <img src="d14.png">
+
+    - Menggunakan dictionary untuk memetakan pilihan menu ke method yang sesuai
+
+    - Memudahkan penambahan menu baru di masa depan
+
+    <img src="d15.png">
+
+    - Loop utama program
+
+    - Mengkonversi input ke lowercase untuk fleksibilitas
+
+    - Eksekusi method sesuai pilihan menu
+
+    - Validasi input menu
+
+9. MENJALANKAN PROGRAM
+
+    <img src="end.png">
+
+    - Membuat instance dari class StudentGradeSystem
+
+    - Menjalankan program saat file dieksekusi langsung
+
+# FITUR KEAMANAN DAN VALIDASI:
+
+1. Validasi Input:
+
+-  Pengecekan duplikasi NIM
+
+- Validasi rentang nilai (0-100)
+
+- Penanganan input non-numerik dengan try-except
+
+- Validasi menu yang dipilih
+
+2. Keamanan Data:
+
+- Data tersimpan dalam struktur dictionary yang terorganisir
+
+- Tidak ada akses langsung ke data dari luar class
+
+- Validasi sebelum modifikasi data
+
+3. User Interface:
+
+- Menu yang jelas dan mudah dipahami
+
+- Pesan error yang informatif
+
+- Format tampilan yang konsisten dan rapi
+
+- Konfirmasi untuk operasi penting
