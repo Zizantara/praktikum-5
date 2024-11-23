@@ -194,28 +194,28 @@
 
 1. Validasi Input:
 
--  Pengecekan duplikasi NIM
+    -  Pengecekan duplikasi NIM
 
-- Validasi rentang nilai (0-100)
+    - Validasi rentang nilai (0-100)
 
-- Penanganan input non-numerik dengan try-except
+    - Penanganan input non-numerik dengan try-except
 
-- Validasi menu yang dipilih
+    - Validasi menu yang dipilih
 
 2. Keamanan Data:
 
-- Data tersimpan dalam struktur dictionary yang terorganisir
+    - Data tersimpan dalam struktur dictionary yang terorganisir
 
-- Tidak ada akses langsung ke data dari luar class
+    - Tidak ada akses langsung ke data dari luar class
 
-- Validasi sebelum modifikasi data
+    - Validasi sebelum modifikasi data
 
 3. User Interface:
 
-- Menu yang jelas dan mudah dipahami
+    - Menu yang jelas dan mudah dipahami
 
-- Pesan error yang informatif
+    - Pesan error yang informatif
 
-- Format tampilan yang konsisten dan rapi
+    - Format tampilan yang konsisten dan rapi
 
-- Konfirmasi untuk operasi penting
+    - Konfirmasi untuk operasi penting
