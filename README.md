@@ -14,13 +14,13 @@
 
 ## Input Program 
 
-<img src="Inputprog.png" widht=500 height=500>
+<img src="Inputprog.png">
 
 ## Ouput 
  
  - Output yang di hasilkan ketika menginput ( L )
 
-    <img src="L.png" widht=500 height=500>
+    <img src="L.png">
 
  - Output yang di hasilkan ketika menginput ( T )
 
