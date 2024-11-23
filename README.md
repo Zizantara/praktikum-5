@@ -24,32 +24,32 @@
 
  - Output yang di hasilkan ketika menginput ( T )
 
-    <img src="T.png" widht=500 height=500>
+    <img src="T.png">
 
  - Output yang di hasilkan ketika menginput ( L ) setelah Menginput ( T )
 
-    <img src="L2.png" widht=500 height=500>
+    <img src="L2.png">
 
  - Output yang di hasilkan ketika menginput ( U )
 
-    <img src="U.png" widht=500 height=500>
+    <img src="U.png">
 
  - Output yang di hasilkan ketika menginput ( L ) setelah Menginput ( U )
 
-    <img src="LU.png" widht=500 height=500>
+    <img src="LU.png">
 
  - Output yang di hasilkan ketika menginput ( H )
 
-    <img src="H.png" widht=500 height=500>
+    <img src="H.png">
 
  - Output yang di hasilkan ketika menginput ( L ) setelah Menginput ( H )
 
-    <img src="LH.png" widht=500 height=500>
+    <img src="LH.png">
 
  - Output yang di hasilkan ketika menginput ( C )
 
-    <img src="C.png" widht=500 height=500>
+    <img src="C.png">
 
  - Output yang di hasilkan ketika menginput ( K )
 
-    <img src="K.png" widht=500 height=500>
+    <img src="K.png">
